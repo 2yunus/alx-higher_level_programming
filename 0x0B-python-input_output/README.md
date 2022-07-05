@@ -1,29 +1,47 @@
-# Input/Output
-Project done during **Full Stack Software Engineering studies** at **Holberton School**. It aims to learn how to open, read, write and append files from a script in **Python**.
+# Python - Input/Output
 
-## Technologies
-* Python Scripts are written with Python 3.4.3
-* Tested on Ubuntu 14.04 LTS
+## Learning Objectives
 
-## Files
+At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-| Filename | Description |
-| -------- | ----------- |
-| `0-read_file.py` | Function that reads a text file and prints it to stdout |
-| `1-number_of_lines.py` | Function that returns the number of lines of a text file |
-| `2-read_lines.py` | Function that reads `n` lines of a text and prints it to stdout |
-| `3-write_file.py` | Function that writes a string to a text file and returns the number of characters written |
-| `4-append_write.py` | Function that appends a string at the end of a text file |
-| `5-to_json_string.py` | Function that returns the JSON representation of an object |
-| `6-from_json_string.py` | Function that returns an object represented by a JSON string |
-| `7-save_to_json_file.py` | Function that writes an Object to a text file, using JSON representation |
-| `8-load_from_json_file.py` | Function that creates an Object from a "JSON file" |
-| `9-add_item.py` | Script that adds all arguments to a Python list, and then save them to `add_item.json` |
-| `10-class_to_json.py` | Function that returns the dictionary description with a simple data structure for JSON serialization of an object |
-| `11-student.py` | Class `Student` that defines a student by its `first_name`, `last_name` and `age` |
-| `12-student.py` | Class `Student` that defines a student with a method to retrieve a JSON representation |
-| `13-student.py` | Class `Student` that defines a student with a method to load a JSON object |
-| `14-pascal_triangle.py` | Function that returns a list of lists of integers representing the Pascal¡s triangle of `n` |
-| `100-append_after.py` | Function that inserts a line of text to a file, after each line containing a specific string |
-| `101-stats.py` | Function that reads `stdin` line by line and computes metrics |
-| `read_write_heap.py` | Script that finds in the heap of a running process, and replaces it |
+### General
+
+* Why Python programming is awesome
+* How to open a file
+* How to write text in a file
+* How to read the full content of a file
+* How to read a file line by line
+* How to move the cursor in a file
+* How to make sure a file is closed after using it
+* What is and how to use the with statement
+* What is JSON
+* What is serialization
+* What is deserialization
+* How to convert a Python data structure to a JSON string
+* How to convert a JSON string to a Python data structure
+
+## Requirements
+
+### Python Scripts
+
+* Allowed editors: vi, vim, emacs
+* All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
+* All your files should end with a new line
+* The first line of all your files should be exactly #!/usr/bin/python3
+* A README.md file, at the root of the folder of the project, is mandatory
+* Your code should use the pycodestyle (version 2.8.*)
+* All your files must be executable
+* The length of your files will be tested using wc
+
+### Python Test Cases
+
+* Allowed editors: vi, vim, emacs
+* All your files should end with a new line
+* All your test files should be inside a folder tests
+* All your test files should be text files (extension: .txt)
+* All your tests should be executed by using this command: python3 -m doctest ./tests/*
+* All your modules should have a documentation (python3 -c 'print(__import__("my_module").__doc__)')
+* All your classes should have a documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
+* All your functions (inside and outside a class) should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
+* A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
+* We strongly encourage you to work together on test cases, so that you don’t miss any edge case
