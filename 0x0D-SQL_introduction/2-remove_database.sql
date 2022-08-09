@@ -1,3 +1,3 @@
--- creates database hbtn_0c_0
--- query for creating databse
-CREATE DATABASE hbtn_0c_0
+-- dleletes hbtn_0c0
+-- drops hbtn_0c_0
+drop DATABASE hbtn_0c_0
