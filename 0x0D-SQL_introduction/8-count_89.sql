@@ -1,3 +1,3 @@
 -- shows the count
 -- query that displays count
-select count(*) from first_table
+select count(*) as id from first_table where id is 89
